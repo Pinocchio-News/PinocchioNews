@@ -1,0 +1,303 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("底圖＿測驗分頁.png");
+    background-repeat: round;
+}
+.navigationbar {
+    position: fixed;
+    background-color: #f2ebe4;
+    height: 90px;
+    width: 100%;
+    top: 0px;
+    box-shadow: 0 4px 6px 0 #8E8E8E;
+    z-index: 9999;
+}
+.content {
+    width: 100%;
+    height: 1000px;
+    background-color: #ececec;
+    float: left;
+    display: table;
+}
+
+.top {
+    position: absolute;
+    top: 90px;
+}
+#catalog{
+    position:fixed;
+}
+#logo {
+    position: relative;
+    top: -7px;
+    left: -10px;
+    height: 90px;
+    background-image: url("測驗logo.png");
+    background-size: cover;
+}
+
+#btn1 {
+    margin-top: 15px;
+    height: 140px;
+    background-image: url("按鈕＿生活.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+}
+
+    #btn1:hover {
+        background-image: url("按鈕hover＿生活.png");
+        background-size: 200px;
+    }
+
+#btn2 {
+    height: 140px;
+    background-image: url("按鈕＿健康.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+}
+
+    #btn2:hover {
+        background-image: url("按鈕hover＿健康.png");
+        background-size: 200px;
+    }
+
+#btn3 {
+    height: 140px;
+    background-image: url("按鈕＿社會.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+}
+
+    #btn3:hover {
+        background-image: url("按鈕hover＿社會.png");
+        background-size: 200px;
+    }
+
+#btn4 {
+    height: 140px;
+    background-image: url("按鈕＿政治.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+}
+
+    #btn4:hover {
+        background-image: url("按鈕hover＿政治.png");
+        background-size: 200px;
+    }
+
+.footer {
+    background-color: #9D9D9D;
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    float: left;
+    top: -5rem;
+}
+
+#paragraph {
+}
+#display{
+    display:block;
+}
+
+h1 {
+    margin-left: 30px;
+    margin-bottom: 0px;
+    height: 70px;
+    background-image: url("result0.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    text-align: center;
+    animation-name: loading;
+    animation-duration: 1.5s; 
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+@keyframes loading {
+    33% {
+        background-image: url("result1.png");
+    }
+    66% {
+        background-image: url("result2.png");
+    }
+    100% {
+        background-image: url("result3.png");
+    }
+}
+
+#haha {
+    position:relative;
+    top:-300px;
+    margin-top: 0px;
+    font-size: 35px;
+    animation-delay:4.8s;
+    animation-name: haha;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+@keyframes haha {
+    100% {
+        top:-30px;
+    }
+}
+
+.all {
+    padding-right: 70px;
+    padding-left: 80px;
+    position: relative;
+    top: -30px;
+    line-height: 50px;
+    opacity: 0;
+    animation-delay: 6s;
+    animation-name: wait;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+@keyframes wait {
+    100% {
+        opacity:100;
+    }
+}
+#title {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #222222;
+}
+h2 {
+    color: #4b4b4b;
+}
+hh{
+    text-decoration: line-through;
+}
+
+#test {
+    background-color: #c5c5c0;
+}
+h3 {
+    padding-right: 70px;
+    padding-left: 80px;
+    line-height: 50px;
+}
+.mouse {
+    cursor: pointer;
+    /*cursor:url(needle.png)0 0,auto;*/
+}
+
+#enterPN {
+    border-radius: 20px;
+    color: #4b4b4b;
+    height: 60px;
+    font-size: 25px;
+    background-color: #c7b299;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation-delay: 6s;
+    animation-name: wait;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+    #enterPN:hover {
+        background-color: #f2ebe4;
+    }
+
+
+a {
+    color: #373737;
+}
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    /*border: 5px solid black;*/
+}
+
+.hidden-when-small {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .hidden-when-small {
+        display: block;
+    }
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*text-decoration:line-through;*/

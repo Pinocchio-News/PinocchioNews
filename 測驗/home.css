@@ -1,0 +1,145 @@
+﻿
+
+body {
+    background-image: url("背景＿測驗主頁.png");
+    background-size: cover;
+}
+
+#btn1 {
+    width: 250px;
+    height: 200px;
+    background-image: url("主頁按鈕＿生活.png");
+    background-size: cover;
+    position: absolute;
+    left: 180px;
+    top: 520px;
+}
+    #btn1:hover {
+        background-image: url("主頁按鈕hover＿生活.png");
+    }
+
+#btn2 {
+    width: 250px;
+    height: 200px;
+    background-image: url("主頁按鈕＿健康.png");
+    background-size: cover;
+    position: absolute;
+    left: 450px;
+    top: 520px;
+}
+
+    #btn2:hover {
+        background-image: url("主頁按鈕hover＿健康.png");
+    }
+
+#btn3 {
+    width: 250px;
+    height: 200px;
+    background-image: url("主頁按鈕＿社會.png");
+    background-size: cover;
+    position: absolute;
+    left: 720px;
+    top: 520px;
+}
+
+    #btn3:hover {
+        background-image: url("主頁按鈕hover＿社會.png");
+    }
+
+#btn4 {
+    width: 250px;
+    height: 200px;
+    background-image: url("主頁按鈕＿政治.png");
+    background-size: cover;
+    position: absolute;
+    left: 990px;
+    top: 520px;
+}
+
+    #btn4:hover {
+        background-image: url("主頁按鈕hover＿政治.png");
+    }
+
+.mouse {
+    cursor: pointer;
+    /*cursor:url(needle.png)0 0,auto;*/
+}
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    /*border: 5px solid black;*/
+}
+
+.hidden-when-small {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .hidden-when-small {
+        display: block;
+    }
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*text-decoration:line-through;*/

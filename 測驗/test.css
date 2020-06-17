@@ -1,0 +1,265 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("底圖＿測驗分頁.png");
+    background-repeat: round;
+}
+.navigationbar {
+    position: fixed;
+    background-color: #f2ebe4;
+    height: 90px;
+    width: 100%;
+    top: 0px;
+    box-shadow: 0 4px 6px 0 #8E8E8E;
+    z-index: 9999;
+}
+
+.content {
+    width: 100%;
+    height: 1000px;
+    background-color: #ececec;
+    float: left;
+    display: table;
+}
+
+.top {
+    position: absolute;
+    top: 90px;
+}
+#catalog{
+    position:fixed;
+}
+#logo {
+    position:relative;
+    top:-7px;
+    left:-10px;
+    height: 90px;
+    background-image: url("測驗logo.png");
+    background-size: cover;
+}
+#btn1 {
+    margin-top:15px;
+    height: 140px;
+    background-image: url("按鈕＿生活.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transition:0.7s;
+}
+    #btn1:hover {
+        background-image: url("按鈕hover＿生活.png");
+        background-size: 200px;
+    }
+
+#btn2 {
+    height: 140px;
+    background-image: url("按鈕＿健康.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+}
+
+    #btn2:hover {
+        background-image: url("按鈕hover＿健康.png");
+        background-size: 200px;
+    }
+
+#btn3 {
+    height: 140px;
+    background-image: url("按鈕＿社會.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+}
+
+    #btn3:hover {
+        background-image: url("按鈕hover＿社會.png");
+        background-size: 200px;
+    }
+
+#btn4 {
+    height: 140px;
+    background-image: url("按鈕＿政治.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+}
+
+    #btn4:hover {
+        background-image: url("按鈕hover＿政治.png");
+        background-size: 200px;
+    }
+
+.footer {
+    background-color: #f2ebe4;
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    float: left;
+    top: -5rem;
+}
+
+#paragraph {
+    margin-top:15px;
+    background-image: url("框＿測驗事件.png");
+    background-size:cover;
+    padding:20px;
+    padding-bottom:110px;
+    padding-right:0px;
+}
+#display{
+    display:block;
+}
+
+h1 {
+    text-align: center;
+    color: #222222;
+}
+h2 {
+    color: #4b4b4b;
+    padding-right: 70px;
+    padding-left: 80px;
+    line-height: 50px;
+}
+
+#test {
+    background-image: url("框＿測驗區png.png");
+    background-size:cover;
+    padding-top:80px;
+    padding-left:90px;
+    margin-left:-39px;
+}
+h3 {
+    color: #222222;
+    padding-right: 70px;
+    padding-left: 80px;
+    line-height: 50px;
+}
+
+#optionA, #optionB, #optionC, #optionD, #optionE, #optionF, #optionG, #optionH {
+    color: #4b4b4b;
+    height: 75px;
+    background-image: url("按鈕＿測驗選項長版.png");
+    background-size: cover;
+    padding-top: 30px;
+    padding-left: 15px;
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+    /*#optionA:hover {
+        background-color: #f4efae;
+    }
+    #optionA:active{
+        background-color: #757fa4;
+    }*/
+
+#submit {
+    height:50px;
+    background-image: url("按鈕＿提交.png");
+    background-size:cover;
+    margin-left: 55px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+    #submit:hover {
+        background-image: url("按鈕hover＿提交.png");
+    }
+
+.mouse {
+    cursor: pointer;
+    /*cursor:url(needle.png)0 0,auto;*/
+}
+
+.biglogo{
+    position:relative;
+    top:-80px;
+    height:700px;
+    background-image:url("測驗logo.png");
+    background-size:900px;
+    background-repeat:no-repeat;
+}
+
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    /*border: 5px solid black;*/
+}
+
+.hidden-when-small {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .hidden-when-small {
+        display: block;
+    }
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*text-decoration:line-through;*/

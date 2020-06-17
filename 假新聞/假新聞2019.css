@@ -1,0 +1,473 @@
+* {
+			box-sizing: border-box;
+		}
+body {overflow-x:hidden;background:url(bk1.png);background-repeat: no-repeat;
+		background-size:cover;left:0px;width:100%;margin: 0;font-family: 'Noto Serif TC', serif;}
+#wrapper{
+		width:100%;
+		overflow: auto;
+	}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap');
+input{outline: none !important;}
+.navigationbar{
+		position:fixed;
+		background-color:#ffabac;
+		height:4.5rem;
+		width:100%;
+		top:0px;
+		left:0px;
+		box-shadow: 0 1px 3px 0 #8E8E8E;
+		z-index:9999;
+		}
+.content{display: inline-block;float: left;}
+#title{
+	width:100%;
+	height:260px;
+	display: inline-block;
+	float: left;
+}
+#titleintro{
+	background-color: white;
+	width:78%;
+	height: 140px;
+	margin-left: 11%;
+	border-radius: 10px;
+	display: inline-block;
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10px;
+}
+#underline{
+	box-shadow: 0 2px #ffabac;padding-bottom:5px;
+}
+#titleintroword{
+	color:#5b5b5b;
+	font-size:20px;
+	line-height: 40px;
+}
+#charact{
+	width:34%;
+	height: 300px;
+	margin-left: 11%;
+	margin-top: 30px;
+	background-image: url(charact.png);
+	background-size: cover;
+	border-radius: 10px;
+	display: inline-block;
+	float: left;
+}
+#characttitle{
+	font-size: 25px;
+	color:#5b5b5b;
+	text-align: center;
+	margin-top: 35px;
+}
+ul{position:relative;top: 10px;left:40px;}
+#charactcon{
+	font-size: 20px;
+	line-height: 45px;
+	color:#5b5b5b;
+	float:left;
+	width:200px;
+}
+#otherwebsite{
+	width:35%;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 10px;
+	background-image: url(otherwebsite.png);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	display: inline-block;
+	float: left;
+}
+#otherwebsiteword{
+	color:#5b5b5b;
+	text-align: center;
+	margin-top: 0px;
+	}
+a{text-decoration: none;color:#5b5b5b;}
+a:hover{color: #f2a1a9;}
+#otherwebsitecon {
+	font-size: 20px;
+	color: #c78e9d;
+	line-height: 45px;
+	float: left;
+	width: 200px;
+}
+#clickBtn {
+	color: #c78e9d;
+}
+
+	#clickBtn:hover {
+		color: #f2a1a9;
+	}
+#downleft{
+	width:22%;
+	height: 750px;
+	margin-top: 80px;
+	display: inline-block;
+	float: left;
+}
+.btnyear{
+	background-size: 220px;
+	background-repeat:no-repeat;
+	height: 100px;
+	position: relative;
+	top:30px;
+}
+#btn2018{
+	background-image: url(btn2018.png);
+	left:17%;
+}
+#btn2018:hover{background-image: url(btn2018hover.png);cursor:pointer;}
+#btn2019{
+	background-image: url(btn2019hover.png);
+	left:17%;
+}
+#btn2019:hover{background-image: url(btn2019hover.png);cursor:pointer;}
+#btn2020{
+	background-image: url(btn2020.png);
+	left:16.5%;
+}
+#btn2020:hover{background-image: url(btn2020hover.png);cursor:pointer;}
+#downright{
+	width:78%;
+	height: 750px;
+	margin-top: 80px;
+	display: inline-block;
+	float: left;
+}
+.container{
+	width: 100%;
+	height: 650px;
+	background-image:url(event.png);
+	background-size:1080px 650px;
+	background-repeat: no-repeat;
+	position: relative;
+	right:0px;
+}
+#eventcontainer{
+	width:89%;
+	height:549px;
+	position: relative;
+	left:0.5%;
+	right:5.5%;
+	top:8%;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+}
+
+.mySlides{display: none;}
+#slide1{display:block;}
+.eventcaption{
+	color: #3C3C3C;
+	font-size:30px;
+	font-weight: bold;
+	width:100%;
+	position: absolute;
+	left:0%;
+	top:55px;
+	text-align: center;
+}
+.prev, .next {
+  		cursor: pointer;
+  		position: absolute;
+  		top: 50%;
+  		width: auto;
+  		padding: 16px;
+  		margin-top: -22px;
+  		background-color: #FFCBC7;
+  		color:#3C3C3C;
+  		font-weight: bold;
+  		font-size: 18px;
+  		transition: 0.3s ease;
+  		border-radius: 0 3px 3px 0;
+  		user-select: none;
+  		z-index: 999;
+}
+.prev:hover, .next:hover {
+  background-color:#ff9e97;z-index: 999;color: white;
+}
+.next {
+  right: 5%;
+  border-radius: 3px 0 0 3px;
+  }
+.prev{left:0.5%;}
+ /* PageNumber */
+
+.numbertext {
+  color:#3C3C3C ;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  left:5%;
+}
+.eventcontent{
+	width:80%;
+	margin-left: 10%;
+	position: relative;
+	top:150px;
+	font-size:18px;
+	z-index: 999;
+	line-height: 38px;
+}
+#evcontent1{
+	width: 28%;
+	position: relative;
+	top:-330px;
+	left:627px;
+	font-size:18px;
+}
+#evcontent2{
+	width:100%;
+	position: relative;
+	top:-43px;
+	left:0%;
+	font-size:18px;
+}
+#wrapporn{width:100%;height:375px;display: inline-block;}
+#evcontent3{
+	width:100%;
+	position: relative;
+	top:-30px;
+	left:0%;
+	font-size:18px;
+}
+#wrapevcontent4{width: 100%;display: inline-block;}
+#wrappic{width:60%;height: 646px;float: left;}
+#evcontent4{
+	width:40%;
+	position: relative;
+	top:0px;
+	left:0%;
+	font-size:18px;
+	float: left;
+	z-index: 999;
+}
+#evcontent5{
+	width:100%;
+	position: relative;
+	top:-20px;
+	left:0%;
+	font-size:18px;
+	}
+/* News Content Source or Picture illustration */
+#ps1{position:absolute;top:660px;font-size: 16px;}
+#ps2{position:absolute;top:660px;font-size: 16px;left:500px;z-index: 90}
+#ps3{color: #9A9E9B;position:absolute;bottom:-50px;font-size: 16px;right:0px;}
+#ps4{position:absolute;bottom:62px;font-size: 16px;left:84px;}
+#ps5{position:absolute;top:464px;font-size: 16px;left:142px;margin-bottom: 0px;}
+#ps6{position:absolute;top:625px;font-size: 16px;left:0px;margin-bottom: 0px;}
+#ps7{position:absolute;top:625px;font-size: 16px;left:495px;margin-bottom: 0px;}
+#ps8{position:absolute;top:478px;font-size: 16px;left:100px;}
+#ps9{position:absolute;top:714px;font-size: 16px;left:688px;}
+#ps10{color: #9A9E9B;position:absolute;bottom:0px;font-size: 16px;right:0px;}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.0s;
+  animation-name: fade;
+  animation-duration: 1.0s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .3} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3} 
+  to {opacity: 1}
+}
+.footer{
+		background-color:#ffabac;
+		width:100%;
+		height:4.5rem;
+		left:0px;
+		display: inline-block;
+		float: left;
+	}
+
+
+/*menu*/
+
+.dropbtn {
+	cursor: pointer;
+	height: 30px;
+	width: 70px;
+	background-image: url("menubtn.png");
+	background-size: cover;
+	position: relative;
+	left: -50px;
+	top: 3px;
+	display: inline-block;
+}
+
+
+.dropdown {
+	position: absolute;
+	left: 1400px;
+	top: 20px;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+/*dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+.dropdown a:hover {
+    height:20px;
+    top:20px;
+}*/
+
+.vl {
+	position: relative;
+	top: -2px;
+	left: -10px;
+	border-color: white;
+	border-left: 0.4px solid white;
+	height: 200px;
+	z-index: 1;
+}
+
+.dot1 {
+	height: 17px;
+	width: 17px;
+	background-color: #ff9da5;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 30px;
+	left: -17px;
+	z-index: 1;
+}
+
+	.dot1:hover {
+		height: 20px;
+		width: 20px;
+		left: -18px;
+		top: 29px;
+	}
+
+.dot2 {
+	height: 17px;
+	width: 17px;
+	background-color: #bcdeff;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 80px;
+	left: -17px;
+	z-index: 1;
+}
+
+	.dot2:hover {
+		height: 20px;
+		width: 20px;
+		left: -18px;
+		top: 79px;
+	}
+
+.dot3 {
+	height: 17px;
+	width: 17px;
+	background-color: #f2ebe4;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 130px;
+	left: -17px;
+	z-index: 1;
+}
+
+	.dot3:hover {
+		height: 20px;
+		width: 20px;
+		left: -18px;
+		top: 129px;
+	}
+
+.dot4 {
+	height: 17px;
+	width: 17px;
+	background-color: #ffd984;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 180px;
+	left: -17px;
+	z-index: 1;
+}
+
+	.dot4:hover {
+		height: 20px;
+		width: 20px;
+		left: -18px;
+		top: 179px;
+	}
+
+
+.show {
+	display: block;
+}
+
+#menuImg1 {
+	width: 135px;
+	height: 70px;
+	background-image: url("選單hover1.png");
+	background-size: cover;
+	position: relative;
+	left: -150px;
+	top: -30px;
+}
+
+#menuImg2 {
+	width: 135px;
+	height: 70px;
+	background-image: url("選單hover2.png");
+	background-size: cover;
+	position: relative;
+	left: -150px;
+	top: -30px;
+}
+
+#menuImg3 {
+	width: 135px;
+	height: 70px;
+	background-image: url("選單hover3.png");
+	background-size: cover;
+	position: relative;
+	left: -150px;
+	top: -30px;
+}
+
+#menuImg4 {
+	width: 135px;
+	height: 70px;
+	background-image: url("選單hover4.png");
+	background-size: cover;
+	position: relative;
+	left: -150px;
+	top: -30px;
+}
+
+.buttonww:hover .hover {
+	display: block;
+	cursor: pointer;
+}
+
+.hover {
+	display: none;
+}

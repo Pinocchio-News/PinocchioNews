@@ -1,0 +1,220 @@
+﻿body {
+    /*background-color:#000000;*/
+    /*height:1080px;
+    top:1920px;*/
+    background-image: url("背景＿主頁二.png");
+    background-size:cover;
+}
+* {
+    box-sizing: border-box;
+}
+
+#catalog{
+    position:absolute;
+    top:50px;
+    left:1200px;
+}
+
+#pinocchio {
+    width: 350px;
+    height: 350px;
+    background-image: url("主頁木偶泡泡版.png");
+    background-size: cover;
+    position: absolute;
+    top: -420px;
+    left: 180px;
+    animation-name: pinocchio_drop;
+    animation-duration: 1.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+@keyframes pinocchio_drop {
+    100% {
+        top: 280px;
+    }
+}
+#pinocchio:hover{
+    cursor:no-drop;
+}
+
+.mouse{
+    cursor:pointer;
+    /*cursor:url(needle.png)0 0,auto;*/
+}
+
+.btn1 {
+    width: 220px;
+    height: 220px;
+    background-image: url("按鈕＿假新聞.png");
+    background-size: cover;
+    position: absolute;
+    left: 510px;
+    top: -420px;
+    animation-name: btn_drop;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+
+    .btn1:hover {
+        width: 220px;
+        height:220px;
+        background-image: url("按鈕hover＿假新聞.png");
+        background-size: cover;
+    }
+
+
+@keyframes btn_drop {
+    100% {
+        top: 370px;
+        
+    }
+}
+
+.btn2 {
+    width: 230px;
+    height: 230px;
+    background-image: url("按鈕＿媒體識讀.png");
+    background-size: cover;
+    position: absolute;
+    left:750px;
+    top: -420px;
+    animation-name: btn_drop;
+    animation-duration: 1.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+
+    .btn2:hover {
+        background-image: url("按鈕hover＿媒體識讀.png");
+        background-size: cover;
+    }
+
+
+@keyframes btn2_drop {
+    100% {
+        top: 240px;
+    }
+}
+
+.btn3 {
+    width: 230px;
+    height: 230px;
+    background-image: url("按鈕＿關於我們.png");
+    background-size: cover;
+    position: absolute;
+    left: 980px;
+    top: -410px;
+    animation-name: btn_drop;
+    animation-duration: 2.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+
+    .btn3:hover {
+        background-image: url("按鈕hover＿關於我們.png");
+        background-size: cover;
+    }
+
+
+@keyframes btn3_drop {
+    100% {
+        top: 40px;
+    }
+}
+
+.btn4 {
+    width: 230px;
+    height: 230px;
+    background-image: url("按鈕＿回到測驗.png");
+    background-size: cover;
+    position: absolute;
+    left: 1210px;
+    top: -420px;
+    animation-name: btn_drop;
+    animation-duration: 2.4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+
+    .btn4:hover {
+        width: 230px;
+        height: 230px;
+        background-image: url("按鈕hover＿回到測驗.png");
+        background-size: cover;
+    }
+
+
+@keyframes btn4_drop {
+    100% {
+        top: 240px;
+    }
+}
+
+
+@keyframes example {
+  0%
+{
+    background-color: green;
+    left: 0px;
+    top: 0px;
+}
+     
+   100% {
+           background-color: yellow;
+           left: -100px;
+           top: 0px;
+            
+        }
+    }
+
+.hover {
+    display: none;
+    background-color: #ffb2b2;
+    width:100px;
+    height: 30px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    /*animation-direction: alternate;*/
+    
+}
+
+/* The animation code 
+@keyframes example {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}*/
+
+/* The element to apply the animation to 
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}*/
+
+/*.button:hover {
+    animation-name: move;
+    animation-duration: 1s;
+    /*animation-iteration-count: 0;
+    animation-direction: normal;
+}
+
+
+    .button:hover .hover {
+        display: block;
+    }*/
+

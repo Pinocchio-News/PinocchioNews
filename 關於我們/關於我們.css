@@ -347,12 +347,12 @@ a{
 }
 
 #menuImg1 {
-	width: 150px;
+	width: 135px;
 	height: 70px;
 	background-image: url("選單hover1.png");
 	background-size: cover;
 	position: relative;
-	left: -155px;
+	left: -150px;
 	top: -30px;
 }
 

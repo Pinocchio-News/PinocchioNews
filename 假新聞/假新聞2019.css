@@ -310,8 +310,8 @@ a:hover{color: #f2a1a9;}
 
 .dropdown {
 	position: absolute;
-	/*left: 1400px;*/
-	top: 5px;
+	left: 1400px;
+	top: 20px;
 	display: inline-block;
 }
 

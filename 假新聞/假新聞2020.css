@@ -196,7 +196,7 @@ a:hover{color: #f2a1a9;}
   background-color:#ff9e97;z-index: 999;color: white;
 }
 .next {
-  right: 5%;
+  left: 1026px;
   border-radius: 3px 0 0 3px;
   }
 .prev{left:0.5%;}

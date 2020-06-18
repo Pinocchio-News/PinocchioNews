@@ -173,7 +173,7 @@ a:hover{color: #f2a1a9;}
 	top:55px;
 	text-align: center;
 }
-.prev, .next {
+.prev{
   		cursor: pointer;
   		position: absolute;
   		top: 50%;
@@ -189,11 +189,28 @@ a:hover{color: #f2a1a9;}
   		user-select: none;
   		z-index: 999;
 }
+.next{
+	cursor: pointer;
+  		position: absolute;
+  		top: 50%;
+  		width: auto;
+  		padding: 16px;
+  		margin-top: -22px;
+  		background-color: #FFCBC7;
+  		color:#3C3C3C;
+  		font-weight: bold;
+  		font-size: 18px;
+  		transition: 0.3s ease;
+  		border-radius: 0 3px 3px 0;
+  		user-select: none;
+  		z-index: 999;
+}
+	
 .prev:hover, .next:hover {
   background-color:#ff9e97;z-index: 999;color: white;
 }
 .next {
-  right: 56px;
+  left: 1026px;
   border-radius: 3px 0 0 3px;
   }
 .prev{left:0.5%;}

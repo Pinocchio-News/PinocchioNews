@@ -150,7 +150,7 @@ a:hover{color: #f2a1a9;}
 	right:0px;
 }
 #eventcontainer{
-	width:89%;
+	width:1000px;
 	height:549px;
 	position: relative;
 	left:0.5%;
@@ -193,7 +193,7 @@ a:hover{color: #f2a1a9;}
   background-color:#ff9e97;z-index: 999;color: white;
 }
 .next {
-  right: 5%;
+  right: 56px;
   border-radius: 3px 0 0 3px;
   }
 .prev{left:0.5%;}
